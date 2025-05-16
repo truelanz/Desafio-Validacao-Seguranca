@@ -11,7 +11,7 @@ import jakarta.validation.constraints.NotNull;
 public class EventDTO {
 	
 	private Long id;
-	@NotBlank(message = "Campo Requerido")
+	@NotBlank(message = "Campo requerido")
 	private String name;
 	@FutureOrPresent(message = "A data do evento não pode ser passada")
 	private LocalDate date;
