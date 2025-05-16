@@ -2,9 +2,12 @@ package com.devsuperior.bds04.dto;
 
 import com.devsuperior.bds04.entities.City;
 
+import jakarta.validation.constraints.NotBlank;
+
 public class CityDTO {
 
 	private Long id;
+	@NotBlank(message = "Campo Requerido")
 	private String name;
 	
 	public CityDTO() {
