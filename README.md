@@ -1,8 +1,8 @@
 ## Desafio Validação e Segurança - by _devsuperior_
 
- >Implemente as funcionalidades necessárias para que os testes do projeto abaixo passem (assista o vídeo explicativo e baixe o projeto no conteúdo anexo ao vídeo).
+#### Implemente as funcionalidades necessárias para que os testes do projeto abaixo passem.
 
-Este é um sistema de eventos e cidades com uma relação N-1 entre eles:
+>Este é um sistema de eventos e cidades com uma relação N-1 entre eles:
 
 ![tables](src/main/resources/image1.png)
 
