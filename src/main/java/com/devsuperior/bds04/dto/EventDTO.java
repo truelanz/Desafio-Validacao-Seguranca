@@ -1,6 +1,5 @@
 package com.devsuperior.bds04.dto;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 
 import com.devsuperior.bds04.entities.Event;
@@ -9,8 +8,7 @@ import jakarta.validation.constraints.FutureOrPresent;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
-public class EventDTO implements Serializable {
-	private static final long serialVersionUID = 1L;
+public class EventDTO {
 	
 	private Long id;
 	@NotBlank(message = "Campo Requerido")
